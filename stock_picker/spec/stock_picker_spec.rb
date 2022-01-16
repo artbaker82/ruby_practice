@@ -16,4 +16,12 @@ describe 'Stock picker exercise' do
     expect(stock_picker([7,6,4,3,1])).to eq([])
   end
 
+  describe 'returns the highest profit different implementation' do
+
+    it 'returns highest profit' do
+      expect(stock_picker_2(prices)).to eq(12)
+    end
+  end
+  
+
 end
