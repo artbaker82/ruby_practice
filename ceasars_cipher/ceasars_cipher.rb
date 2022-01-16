@@ -4,7 +4,7 @@
 # create hash of character codes
 # or just 4 arrays of corresponding codes, letters
 
-  def caesar_cipher(string, shift)
+  def ceasar_cipher(string, shift)
     chars = []
     caseArr = []
     # account for other characters, . , anything that isnt a letter
@@ -40,4 +40,4 @@
     
   end
   
-puts caesar_cipher("What a string!", 5)
+# puts caesar_cipher("What a string!", 13)
